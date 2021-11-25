@@ -14,546 +14,170 @@
 
 <body>
 
+    <div class="loader">
+        <div class="thing">
+            <div class="anima"></div>
+        </div>
+    </div>
 
     <button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
 
-    <div class="bg_img">
-        <div id="navbar">
+    <div class="section" id="home">
+        <div class="bg_img">
+            <div id="navbar">
+                <div class="container">
+                    <div class="nav">
+                        <div class="nav_logo">
+                            <a href="#"><img src="./img/logo.png" alt="logoImg" /></a>
+                            <a href="#">
+                                <p class="logo_p">FlexStar</p>
+                            </a>
+                        </div>
+
+                        <div class="nav_links">
+                            <ul class="main_nav">
+                                <li onclick="myClose()" class="home active">
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li onclick="myClose()" class="about">
+                                    <a href="#about">About</a>
+                                </li>
+                                <li onclick="myClose()" class="service">
+                                    <a href="#service">Services</a>
+                                </li>
+                                <li onclick="myClose()" class="portfolio">
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
+                                <li onclick="myClose()" class="team">
+                                    <a href="#team">Team</a>
+                                </li>
+                                <li onclick="myClose()">
+                                    <a href="../addition/index.html">Blog</a>
+                                </li>
+                                <li class="drop_downShow" style="position: relative;">
+                                    <a href="#">Drop Down</a>
+                                    <i class="fas fa-caret-down" id="arrow_main"></i>
+                                    <ul class="drop_down">
+                                        <li onclick="myClose()">
+                                            <a href="#">Drop Down 1</a>
+                                        </li>
+                                        <li class="drop_downShow2" style="position: relative;">
+                                            <a href="#">Drop Down 2</a>
+                                            <i class="fas fa-caret-down" id="arrow_dropDown"></i>
+                                            <ul class="drop_down2">
+                                                <li onclick="myClose()">
+                                                    <a href="#">Deep Drop Down 1</a>
+                                                </li>
+                                                <li onclick="myClose()">
+                                                    <a href="#">Deep Drop Down 2</a>
+                                                </li>
+                                                <li onclick="myClose()">
+                                                    <a href="#">Deep Drop Down 3</a>
+                                                </li>
+                                                <li onclick="myClose()">
+                                                    <a href="#">Deep Drop Down 4</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li onclick="myClose()">
+                                            <a href="#">Drop Down 3</a>
+                                        </li>
+                                        <li onclick="myClose()">
+                                            <a href="#">Drop Down 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li onclick="myClose()" class="contact">
+                                    <a href="#contact">Contact</a>
+                                </li>
+                                <li class="li_btn about" onclick="myClose()">
+                                    <a href="#about">Get Start</a>
+                                </li>
+                            </ul>
+                            <div class="close" onclick="myClose()"><i class="fa fa-times"></i></div>
+                        </div>
+                        <div class="burger">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container">
-                <div class="nav">
-                    <div class="nav_logo">
-                        <a href="#"><img src="./img/logo.png" alt="logoImg" /></a>
-                        <a href="#">
-                            <p class="logo_p">FlexStar</p>
-                        </a>
-                    </div>
-
-                    <div class="nav_links">
-                        <ul class="main_nav">
-                            <li onclick="myClose()">
-                                <a href="#">Home</a>
-                            </li>
-                            <li onclick="myClose()">
-                                <a href="#about">About</a>
-                            </li>
-                            <li onclick="myClose()">
-                                <a href="#service">Services</a>
-                            </li>
-                            <li onclick="myClose()">
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li onclick="myClose()">
-                                <a href="#team">Team</a>
-                            </li>
-                            <li onclick="myClose()">
-                                <a href="https://mirafzal1604.github.io/additionflexstart/">Blog</a>
-                            </li>
-                            <li class="drop_downShow" style="position: relative;">
-                                <a href="#">Drop Down</a>
-                                <i class="fas fa-caret-down" id="arrow_main"></i>
-                                <ul class="drop_down">
-                                    <li onclick="myClose()">
-                                        <a href="#">Drop Down 1</a>
-                                    </li>
-                                    <li class="drop_downShow2" style="position: relative;">
-                                        <a href="#">Drop Down 2</a>
-                                        <i class="fas fa-caret-down" id="arrow_dropDown"></i>
-                                        <ul class="drop_down2">
-                                            <li onclick="myClose()">
-                                                <a href="#">Deep Drop Down 1</a>
-                                            </li>
-                                            <li onclick="myClose()">
-                                                <a href="#">Deep Drop Down 2</a>
-                                            </li>
-                                            <li onclick="myClose()">
-                                                <a href="#">Deep Drop Down 3</a>
-                                            </li>
-                                            <li onclick="myClose()">
-                                                <a href="#">Deep Drop Down 4</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li onclick="myClose()">
-                                        <a href="#">Drop Down 3</a>
-                                    </li>
-                                    <li onclick="myClose()">
-                                        <a href="#">Drop Down 4</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li onclick="myClose()">
-                                <a href="#contact">Contact</a>
-                            </li>
-                            <li class="li_btn" onclick="myClose()">
-                                <a href="#about">Get Start</a>
-                            </li>
-                        </ul>
-                        <div class="close" onclick="myClose()"><i class="fa fa-times"></i></div>
-                    </div>
-                    <div class="burger">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
+                <div class="row">
+                    <div class="under_nav ">
+                        <div class="under_info col-12 col-sm-6">
+                            <h2 class="under_main_text">We offer modern solutions for growing your business</h2>
+                            <p class="under_sub_text">We are team of talented designers making websites</p>
+                            <a href="#" class="under_btn">Get Started <span><i class="fas fa-arrow-right" id="arrow_under"></i></span></a>
+                        </div>
+                        <div class="under_img col-12 col-sm-6">
+                            <img src="./img/hero-img.png" alt="under_navImg">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="section reveal" id="about">
         <div class="container">
-            <div class="row">
-                <div class="under_nav ">
-                    <div class="under_info col-12 col-sm-6">
-                        <h2 class="under_main_text">We offer modern solutions for growing your business</h2>
-                        <p class="under_sub_text">We are team of talented designers making websites</p>
-                        <a href="#" class="under_btn">Get Started <span><i class="fas fa-arrow-right" id="arrow_under"></i></span></a>
-                    </div>
-                    <div class="under_img col-12 col-sm-6">
-                        <img src="./img/hero-img.png" alt="under_navImg">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container" id="about">
-        <div class="info_team reveal">
-            <div class="row">
-                <div class="info_about col-12 col-lg-6">
-                    <p class="brief_info">Who We Are</p>
-                    <div class="info_text">
-                        Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.
-                    </div>
-                    <div class="info_subtext">
-                        Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-                    </div>
-                    <div class="info_btn">
-                        <a href="#" class="info_btn_content">Read More <span><i class="fas fa-long-arrow-alt-right" id="info_arrow"></i></span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="info_img col-12 col-lg-6">
-                <img src="./img/about.jpg" alt="team" />
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="value_section reveal">
-            <div class="value_header">
-                <h2 class="value_header_mainText">Our Values</h2>
-                <p class="value_header_subText">Odit est perspiciatis laborum et dicta</p>
-            </div>
-            <div class="value_body row">
-                <div class="col-lg-4">
-                    <div class="value_box">
-                        <div class="box_content">
-                            <img src="./img/values-1.png">
-                            <p class="box_text_head">Ad cupiditate sed est odio</p>
-                            <p class="box_text_body">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="value_box">
-                        <div class="box_content">
-                            <img src="./img/values-2.png">
-                            <p class="box_text_head">Ad cupiditate sed est odio</p>
-                            <p class="box_text_body">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="value_box">
-                        <div class="box_content">
-                            <img src="./img/values-3.png">
-                            <p class="box_text_head">Ad cupiditate sed est odio</p>
-                            <p class="box_text_body">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="count_boxes">
-            <div class="row reveal">
-                <div class=" col-md-6 col-lg-3">
-                    <div class="count">
-                        <div class="count_icon">
-                            <i class="far fa-smile-beam"></i>
-                        </div>
-                        <div class="count_text">
-                            <p class="counter" id="number1">232></p>
-                            <p class="count_content">Happy Client</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="count">
-                        <div class="count_icon">
-                            <i class="far fa-clipboard" style="color: #ee6c20;"></i>
-                        </div>
-                        <div class="count_text">
-                            <p class="counter" id="number2">521></p>
-                            <p class="count_content">Project</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="count">
-                        <div class="count_icon">
-                            <i class="fas fa-headphones-alt" style=" color: #15be56;"></i>
-                        </div>
-                        <div class="count_text ">
-                            <p class="counter " id="number3">1463></p>
-                            <p class="count_content ">Hours of Support</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ">
-                    <div class="count ">
-                        <div class="count_icon">
-                            <i class="fas fa-users" style="color: #bb0852;"></i>
-                        </div>
-                        <div class="count_text ">
-                            <p class="counter" id="number4">15></p>
-                            <p class="count_content ">Hard Workers</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="feature reveal">
-            <div class="feature_head">
-                <p class="feature_head_text">Features</p>
-                <p class="feature_head_subtext">Laboriosam et omnis fuga quis dolor direda fara</p>
-            </div>
-            <div class="row">
-                <div class="feature_body">
-                    <div class="col-12 col-xl-6">
-                        <div class="feature_img ">
-                            <img src="./img/features.png" alt="feature" />
-                        </div>
-                    </div>
-                    <div class="col-12 col-xl-6">
-                        <div class="feature_text">
-                            <div class="row">
-                                <div class="feature_box col-6">
-                                    <i class="fas fa-check-square" id="feature_arrow"></i>
-                                    <p class="feature_box_p">Eos aspernatur rem</p>
-                                </div>
-                                <div class="feature_box col-6">
-                                    <i class="fas fa-check-square" id="feature_arrow"></i>
-                                    <p class="feature_box_p">Volup amet voluptas</p>
-                                </div>
-                                <div class="feature_box col-6">
-                                    <i class="fas fa-check-square" id="feature_arrow"></i>
-                                    <p class="feature_box_p">Alias possimus</p>
-                                </div>
-                                <div class="feature_box col-6">
-                                    <i class="fas fa-check-square" id="feature_arrow"></i>
-                                    <p class="feature_box_p">Facilis neque ipsa</p>
-                                </div>
-                                <div class="feature_box col-6">
-                                    <i class="fas fa-check-square" id="feature_arrow"></i>
-                                    <p class="feature_box_p">Rerum omnis sint</p>
-                                </div>
-                                <div class="feature_box col-6">
-                                    <i class="fas fa-check-square" id="feature_arrow"></i>
-                                    <p class="feature_box_p">Repellendus mollitia</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="featsec reveal">
-                <div class="col-12 col-lg-6">
-                    <div class="featsec_left">
-                        <p class="featsec_left_text">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</p>
-                        <div class="tab">
-                            <button class="tablinks active" onclick="openCity(event, 'London')">Saepe fuga</button>
-                            <button class="tablinks" onclick="openCity(event, 'Paris')">oluptates</button>
-                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Corrupti</button>
-                        </div>
-                        <div id="London" class="tabcontent" style="display: block;">
-                            <p class="tabcontent_p">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                            <div class="insideTab">
-                                <i class="fas fa-check" id="checkBox"></i>
-                                <h4 class="tabcontent_h">Repudiandae rerum velit modi et officia quasi facilis</h4>
-                            </div>
-                            <p class="tabcontent_p">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                            <div class="insideTab">
-                                <i class="fas fa-check" id="checkBox"></i>
-                                <h4 class="tabcontent_h">Incidunt non veritatis illum ea ut nisi</h4>
-                            </div>
-                            <p class="tabcontent_p">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-                        </div>
-
-                        <div id="Paris" class="tabcontent">
-                            <p class="tabcontent_p">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                            <div class="insideTab">
-                                <i class="fas fa-check" id="checkBox2"></i>
-                                <h4 class="tabcontent_h">Repudiandae rerum velit modi et officia quasi facilis</h4>
-                            </div>
-                            <p class="tabcontent_p">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                            <div class="insideTab">
-                                <i class="fas fa-check" id="checkBox2"></i>
-                                <h4 class="tabcontent_h">Incidunt non veritatis illum ea ut nisi</h4>
-                            </div>
-                            <p class="tabcontent_p">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-                        </div>
-
-                        <div id="Tokyo" class="tabcontent">
-                            <p class="tabcontent_p">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                            <div class="insideTab">
-                                <i class="fas fa-check" id="checkBox3"></i>
-                                <h4 class="tabcontent_h">Repudiandae rerum velit modi et officia quasi facilis</h4>
-                            </div>
-                            <p class="tabcontent_p">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                            <div class="insideTab">
-                                <i class="fas fa-check" id="checkBox3"></i>
-                                <h4 class="tabcontent_h">Incidunt non veritatis illum ea ut nisi</h4>
-                            </div>
-                            <p class="tabcontent_p">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="featsec_right">
-                        <img src="./img/features-2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container" id="service">
-        <div class="service reveal">
-            <div class="service_head">
-                <p class="service_head_text">Services</p>
-                <p class="service_head_subtext">Veritatis et dolores facere numquam et praesentium</p>
-            </div>
-            <div class="service_body row">
-                <div class="col-12 col-sm-6 col-lg-4 service_boxes">
-                    <div class="service_box" style="border-bottom: 3px solid #2db6fa;">
-                        <i class="far fa-comment-alt box_icon" id="box_icon1"></i>
-                        <h3 class="service_box_h">Nesciunt Mete</h3>
-                        <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 service_boxes">
-                    <div class="service_box" style="border-bottom: 3px solid #08da4e">
-                        <i class="far fa-comment-alt box_icon" id="box_icon2"></i>
-                        <h3 class="service_box_h">Nesciunt Mete</h3>
-                        <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 service_boxes">
-                    <div class="service_box" style="border-bottom: 3px solid #e9222c;">
-                        <i class="far fa-comment-alt box_icon" id="box_icon3"></i>
-                        <h3 class="service_box_h">Nesciunt Mete</h3>
-                        <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 service_boxes">
-                    <div class="service_box" style="border-bottom: 3px solid #f68c09;">
-                        <i class="far fa-comment-alt box_icon" id="box_icon4"></i>
-                        <h3 class="service_box_h">Nesciunt Mete</h3>
-                        <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 service_boxes">
-                    <div class="service_box" style="border-bottom: 3px solid #b50edf;">
-                        <i class="far fa-comment-alt box_icon" id="box_icon5"></i>
-                        <h3 class="service_box_h">Nesciunt Mete</h3>
-                        <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 service_boxes">
-                    <div class="service_box" style="border-bottom: 3px solid #f51f9c;">
-                        <i class="far fa-comment-alt box_icon" id="box_icon6"></i>
-                        <h3 class="service_box_h">Nesciunt Mete</h3>
-                        <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="price reveal">
-            <div class="price_head">
-                <h2 class="price_head_text">Prices</h2>
-                <p class="price-head_subtext">Check our Pricing</p>
-            </div>
-            <div class="price_body row">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="price_box">
-                        <h3 class="price_box_h" style="color: #07d5c0;">Free Plan</h3>
-                        <div class="price_cost"><sup>$</sup>0<span> / mo</span></div>
-                        <img src="./img/pricing-free.png" class="price_img" alt="">
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <a href="#" class="btn_buy">Buy Now</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="price_box">
-                        <span class="price_feature">Feature</span>
-                        <h3 class="price_box_h" style="color: #65c600;">Starter Plan</h3>
-                        <div class="price_cost"><sup>$</sup>19<span> / mo</span></div>
-                        <img src="./img/pricing-starter.png" class="price_img" alt="">
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <a href="#" class="btn_buy">Buy Now</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="price_box">
-                        <h3 class="price_box_h" style="color: #ff901c;">Business Plan</h3>
-                        <div class="price_cost"><sup>$</sup>29<span> / mo</span></div>
-                        <img src="./img/pricing-business.png" class="price_img" alt="">
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <a href="#" class="btn_buy">Buy Now</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="price_box">
-                        <h3 class="price_box_h" style="color: #ff0071;">Ultimate Plan</h3>
-                        <div class="price_cost"><sup>$</sup>49<span> / mo</span></div>
-                        <img src="./img/pricing-ultimate.png" class="price_img" alt="">
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <a href="#" class="btn_buy">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="faq reveal">
-            <div class="faq_head">
-                <h2 class="faq_head_h">F.A.Q</h2>
-                <p class="faq_head_p">
-                    Frequently Asked Questions
-                </p>
-            </div>
-            <div class="faq_body">
+            <div class="info_team">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="drop_content">
-                            <input type="checkbox" name="tab" id="tab-1">
-                            <label for="tab-1">
-                                <span>Accordion Heading One</span>
-                                <div class="drop_content_icon">
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                            </label>
-                            <div class="drop_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
-                            </div>
+                    <div class="info_about col-12 col-lg-6">
+                        <p class="brief_info">Who We Are</p>
+                        <div class="info_text">
+                            Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.
                         </div>
-
-                        <div class="drop_content">
-                            <input type="checkbox" name="tab" id="tab-2">
-                            <label for="tab-2">
-                                <span>Accordion Heading Two</span>
-                                <div class="drop_content_icon">
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                            </label>
-                            <div class="drop_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
-                            </div>
+                        <div class="info_subtext">
+                            Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
                         </div>
+                        <div class="info_btn">
+                            <a href="#" class="info_btn_content">Read More <span><i class="fas fa-long-arrow-alt-right" id="info_arrow"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_img col-12 col-lg-6">
+                    <img src="./img/about.jpg" alt="team" />
+                </div>
+            </div>
+        </div>
+    </div>
 
-                        <div class="drop_content">
-                            <input type="checkbox" name="tab" id="tab-3">
-                            <label for="tab-3">
-                                <span>Accordion Heading Four</span>
-                                <div class="drop_content_icon">
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                          </label>
-                            <div class="drop_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+    <div class="section reveal">
+        <div class="container">
+            <div class="value_section">
+                <div class="value_header">
+                    <h2 class="value_header_mainText">Our Values</h2>
+                    <p class="value_header_subText">Odit est perspiciatis laborum et dicta</p>
+                </div>
+                <div class="value_body row">
+                    <div class="col-lg-4">
+                        <div class="value_box">
+                            <div class="box_content">
+                                <img src="./img/values-1.png">
+                                <p class="box_text_head">Ad cupiditate sed est odio</p>
+                                <p class="box_text_body">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="drop_content">
-                            <input type="checkbox" name="tab" id="tab-4">
-                            <label for="tab-4">
-                                <span>Accordion Heading One</span>
-                                <div class="drop_content_icon">
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                            </label>
-                            <div class="drop_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                    <div class="col-lg-4">
+                        <div class="value_box">
+                            <div class="box_content">
+                                <img src="./img/values-2.png">
+                                <p class="box_text_head">Ad cupiditate sed est odio</p>
+                                <p class="box_text_body">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
                             </div>
                         </div>
-
-                        <div class="drop_content">
-                            <input type="checkbox" name="tab" id="tab-5">
-                            <label for="tab-5">
-                                <span>Accordion Heading Two</span>
-                                <div class="drop_content_icon">
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                            </label>
-                            <div class="drop_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
-                            </div>
-                        </div>
-
-                        <div class="drop_content">
-                            <input type="checkbox" name="tab" id="tab-6">
-                            <label for="tab-6">
-                                <span>Accordion Heading Four</span>
-                                <div class="drop_content_icon">
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                          </label>
-                            <div class="drop_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="value_box">
+                            <div class="box_content">
+                                <img src="./img/values-3.png">
+                                <p class="box_text_head">Ad cupiditate sed est odio</p>
+                                <p class="box_text_body">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
                             </div>
                         </div>
                     </div>
@@ -562,188 +186,398 @@
         </div>
     </div>
 
-    <div class="container" id="portfolio">
-        <div class="portfolio reveal">
-            <div class="portfolio_head">
-                <h2 class="portfolio_head_h">
-                    Portfolio
-                </h2>
-                <p class="portfolio_head_p">
-                    Check our latest work
-                </p>
-                <div id="portfolio_btn">
-                    <button class="btn_portfolio aa" onclick="filterSelection('all')">All</button>
-                    <button class="btn_portfolio" onclick="filterSelection('app')">App</button>
-                    <button class="btn_portfolio" onclick="filterSelection('card')">Card</button>
-                    <button class="btn_portfolio" onclick="filterSelection('web')">Web</button>
-                </div>
-            </div>
-            <div class="portfolio_body">
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="count_boxes">
                 <div class="row">
-                    <div class="portfolio_wrap">
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-1.jpg" class="filterDiv app"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-2.jpg" class="filterDiv web"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-3.jpg" class="filterDiv app"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-4.jpg" class="filterDiv card"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-5.jpg" class="filterDiv web"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-6.jpg" class="filterDiv app"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-7.jpg" class="filterDiv card"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-8.jpg" class="filterDiv card"></div>
-                        <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-9.jpg" class="filterDiv web"></div>
+                    <div class=" col-md-6 col-lg-3">
+                        <div class="count">
+                            <div class="count_icon">
+                                <i class="far fa-smile-beam"></i>
+                            </div>
+                            <div class="count_text">
+                                <p class="counter" id="number1">232></p>
+                                <p class="count_content">Happy Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="count">
+                            <div class="count_icon">
+                                <i class="far fa-clipboard" style="color: #ee6c20;"></i>
+                            </div>
+                            <div class="count_text">
+                                <p class="counter" id="number2">521></p>
+                                <p class="count_content">Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="count">
+                            <div class="count_icon">
+                                <i class="fas fa-headphones-alt" style=" color: #15be56;"></i>
+                            </div>
+                            <div class="count_text ">
+                                <p class="counter " id="number3">1463></p>
+                                <p class="count_content ">Hours of Support</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <div class="count ">
+                            <div class="count_icon">
+                                <i class="fas fa-users" style="color: #bb0852;"></i>
+                            </div>
+                            <div class="count_text ">
+                                <p class="counter" id="number4">15></p>
+                                <p class="count_content ">Hard Workers</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="workers reveal">
-            <div class="workers_head">
-                <div class="workers_head">
-                    <h2 class="workers_head_h">
-                        Testimonials
-                    </h2>
-                    <p class="workers_head_p">
-                        What they are saying about us
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="feature">
+                <div class="feature_head">
+                    <p class="feature_head_text">Features</p>
+                    <p class="feature_head_subtext">Laboriosam et omnis fuga quis dolor direda fara</p>
+                </div>
+                <div class="row">
+                    <div class="feature_body">
+                        <div class="col-12 col-xl-6">
+                            <div class="feature_img ">
+                                <img src="./img/features.png" alt="feature" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="feature_text">
+                                <div class="row">
+                                    <div class="feature_box col-6">
+                                        <i class="fas fa-check-square" id="feature_arrow"></i>
+                                        <p class="feature_box_p">Eos aspernatur rem</p>
+                                    </div>
+                                    <div class="feature_box col-6">
+                                        <i class="fas fa-check-square" id="feature_arrow"></i>
+                                        <p class="feature_box_p">Volup amet voluptas</p>
+                                    </div>
+                                    <div class="feature_box col-6">
+                                        <i class="fas fa-check-square" id="feature_arrow"></i>
+                                        <p class="feature_box_p">Alias possimus</p>
+                                    </div>
+                                    <div class="feature_box col-6">
+                                        <i class="fas fa-check-square" id="feature_arrow"></i>
+                                        <p class="feature_box_p">Facilis neque ipsa</p>
+                                    </div>
+                                    <div class="feature_box col-6">
+                                        <i class="fas fa-check-square" id="feature_arrow"></i>
+                                        <p class="feature_box_p">Rerum omnis sint</p>
+                                    </div>
+                                    <div class="feature_box col-6">
+                                        <i class="fas fa-check-square" id="feature_arrow"></i>
+                                        <p class="feature_box_p">Repellendus mollitia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="featsec reveal">
+                    <div class="col-12 col-lg-6">
+                        <div class="featsec_left">
+                            <p class="featsec_left_text">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</p>
+                            <div class="tab">
+                                <button class="tablinks active" onclick="openCity(event, 'London')">Saepe fuga</button>
+                                <button class="tablinks" onclick="openCity(event, 'Paris')">oluptates</button>
+                                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Corrupti</button>
+                            </div>
+                            <div id="London" class="tabcontent" style="display: block;">
+                                <p class="tabcontent_p">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                                <div class="insideTab">
+                                    <i class="fas fa-check" id="checkBox"></i>
+                                    <h4 class="tabcontent_h">Repudiandae rerum velit modi et officia quasi facilis</h4>
+                                </div>
+                                <p class="tabcontent_p">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                                <div class="insideTab">
+                                    <i class="fas fa-check" id="checkBox"></i>
+                                    <h4 class="tabcontent_h">Incidunt non veritatis illum ea ut nisi</h4>
+                                </div>
+                                <p class="tabcontent_p">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                            </div>
+
+                            <div id="Paris" class="tabcontent">
+                                <p class="tabcontent_p">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                                <div class="insideTab">
+                                    <i class="fas fa-check" id="checkBox2"></i>
+                                    <h4 class="tabcontent_h">Repudiandae rerum velit modi et officia quasi facilis</h4>
+                                </div>
+                                <p class="tabcontent_p">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                                <div class="insideTab">
+                                    <i class="fas fa-check" id="checkBox2"></i>
+                                    <h4 class="tabcontent_h">Incidunt non veritatis illum ea ut nisi</h4>
+                                </div>
+                                <p class="tabcontent_p">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                            </div>
+
+                            <div id="Tokyo" class="tabcontent">
+                                <p class="tabcontent_p">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                                <div class="insideTab">
+                                    <i class="fas fa-check" id="checkBox3"></i>
+                                    <h4 class="tabcontent_h">Repudiandae rerum velit modi et officia quasi facilis</h4>
+                                </div>
+                                <p class="tabcontent_p">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                                <div class="insideTab">
+                                    <i class="fas fa-check" id="checkBox3"></i>
+                                    <h4 class="tabcontent_h">Incidunt non veritatis illum ea ut nisi</h4>
+                                </div>
+                                <p class="tabcontent_p">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="featsec_right">
+                            <img src="./img/features-2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section reveal" id="service">
+        <div class="container">
+            <div class="service_m reveal">
+                <div class="service_head">
+                    <p class="service_head_text">Services</p>
+                    <p class="service_head_subtext">Veritatis et dolores facere numquam et praesentium</p>
+                </div>
+                <div class="service_body row">
+                    <div class="col-12 col-sm-6 col-lg-4 service_boxes">
+                        <div class="service_box" style="border-bottom: 3px solid #2db6fa;">
+                            <i class="far fa-comment-alt box_icon" id="box_icon1"></i>
+                            <h3 class="service_box_h">Nesciunt Mete</h3>
+                            <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 service_boxes">
+                        <div class="service_box" style="border-bottom: 3px solid #08da4e">
+                            <i class="far fa-comment-alt box_icon" id="box_icon2"></i>
+                            <h3 class="service_box_h">Nesciunt Mete</h3>
+                            <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 service_boxes">
+                        <div class="service_box" style="border-bottom: 3px solid #e9222c;">
+                            <i class="far fa-comment-alt box_icon" id="box_icon3"></i>
+                            <h3 class="service_box_h">Nesciunt Mete</h3>
+                            <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 service_boxes">
+                        <div class="service_box" style="border-bottom: 3px solid #f68c09;">
+                            <i class="far fa-comment-alt box_icon" id="box_icon4"></i>
+                            <h3 class="service_box_h">Nesciunt Mete</h3>
+                            <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 service_boxes">
+                        <div class="service_box" style="border-bottom: 3px solid #b50edf;">
+                            <i class="far fa-comment-alt box_icon" id="box_icon5"></i>
+                            <h3 class="service_box_h">Nesciunt Mete</h3>
+                            <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 service_boxes">
+                        <div class="service_box" style="border-bottom: 3px solid #f51f9c;">
+                            <i class="far fa-comment-alt box_icon" id="box_icon6"></i>
+                            <h3 class="service_box_h">Nesciunt Mete</h3>
+                            <p class="service_box_p">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="read-more"><span>Read More</span> <i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="price">
+                <div class="price_head">
+                    <h2 class="price_head_text">Prices</h2>
+                    <p class="price-head_subtext">Check our Pricing</p>
+                </div>
+                <div class="price_body row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="price_box">
+                            <h3 class="price_box_h" style="color: #07d5c0;">Free Plan</h3>
+                            <div class="price_cost"><sup>$</sup>0<span> / mo</span></div>
+                            <img src="./img/pricing-free.png" class="price_img" alt="">
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li class="na">Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <a href="#" class="btn_buy">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="price_box">
+                            <span class="price_feature">Feature</span>
+                            <h3 class="price_box_h" style="color: #65c600;">Starter Plan</h3>
+                            <div class="price_cost"><sup>$</sup>19<span> / mo</span></div>
+                            <img src="./img/pricing-starter.png" class="price_img" alt="">
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <a href="#" class="btn_buy">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="price_box">
+                            <h3 class="price_box_h" style="color: #ff901c;">Business Plan</h3>
+                            <div class="price_cost"><sup>$</sup>29<span> / mo</span></div>
+                            <img src="./img/pricing-business.png" class="price_img" alt="">
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <a href="#" class="btn_buy">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="price_box">
+                            <h3 class="price_box_h" style="color: #ff0071;">Ultimate Plan</h3>
+                            <div class="price_cost"><sup>$</sup>49<span> / mo</span></div>
+                            <img src="./img/pricing-ultimate.png" class="price_img" alt="">
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <a href="#" class="btn_buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="faq">
+                <div class="faq_head">
+                    <h2 class="faq_head_h">F.A.Q</h2>
+                    <p class="faq_head_p">
+                        Frequently Asked Questions
                     </p>
                 </div>
-            </div>
-            <div class="card-carousel">
-                <div class="card" id="1">
-                    <div class="image-container"></div>
-                    <h1 class="card_h">Saul Goodman</h1>
-                    <h2 class="card_p">Ceo & Founder</h2>
-                    <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
-                </div>
-                <div class="card" id="2">
-                    <div class="image-container"></div>
-                    <h1 class="card_h">Sara Wilsson</h1>
-                    <h2 class="card_p">Designer</h2>
-                    <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
-                </div>
-                <div class="card" id="3">
-                    <div class="image-container"></div>
-                    <h1 class="card_h">Jena Karlis</h1>
-                    <h2 class="card_p">Store Owner</h2>
-                    <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
-                </div>
-                <div class="card" id="4">
-                    <div class="image-container"></div>
-                    <h1 class="card_h">Matt Brandon</h1>
-                    <h2 class="card_p">Freelancer</h2>
-                    <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
-                </div>
-                <div class="card" id="5">
-                    <div class="image-container"></div>
-                    <h1 class="card_h">John Larson</h1>
-                    <h2 class="card_p">Entrepreneur</h2>
-                    <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                <div class="faq_body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="drop_content">
+                                <input type="checkbox" name="tab" id="tab-1">
+                                <label for="tab-1">
+                                <span>Accordion Heading One</span>
+                                <div class="drop_content_icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </label>
+                                <div class="drop_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                                </div>
+                            </div>
 
-    <div class="container" id="team">
-        <div class="team reveal">
-            <div class="team_head">
-                <div class="team_head_h">
-                    TEAM
-                </div>
-                <div class="team_head_p">
-                    Our hard working team
-                </div>
-            </div>
-            <div class="team_body">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="team_box">
-                            <div class="team_img">
-                                <img src="./img/team/team-1.jpg" alt="1_One" />
-                                <div class="social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                            <div class="drop_content">
+                                <input type="checkbox" name="tab" id="tab-2">
+                                <label for="tab-2">
+                                <span>Accordion Heading Two</span>
+                                <div class="drop_content_icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </label>
+                                <div class="drop_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
                                 </div>
                             </div>
-                            <div class="team_text">
-                                <p class="team_text_h">
-                                    Walter White
-                                </p>
-                                <p class="team_text_subText">
-                                    Chief Executive Officer
-                                </p>
-                                <p class="team_main_text">
-                                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-                                </p>
+
+                            <div class="drop_content">
+                                <input type="checkbox" name="tab" id="tab-3">
+                                <label for="tab-3">
+                                <span>Accordion Heading Four</span>
+                                <div class="drop_content_icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                          </label>
+                                <div class="drop_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="team_box">
-                            <div class="team_img">
-                                <img src="./img/team/team-2.jpg" alt="2_One" />
-                                <div class="social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                        <div class="col-lg-6">
+                            <div class="drop_content">
+                                <input type="checkbox" name="tab" id="tab-4">
+                                <label for="tab-4">
+                                <span>Accordion Heading One</span>
+                                <div class="drop_content_icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </label>
+                                <div class="drop_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
                                 </div>
                             </div>
-                            <div class="team_text">
-                                <p class="team_text_h">
-                                    Walter White
-                                </p>
-                                <p class="team_text_subText">
-                                    Chief Executive Officer
-                                </p>
-                                <p class="team_main_text">
-                                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="team_box">
-                            <div class="team_img">
-                                <img src="./img/team/team-3.jpg" alt="3_One" />
-                                <div class="social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                            <div class="drop_content">
+                                <input type="checkbox" name="tab" id="tab-5">
+                                <label for="tab-5">
+                                <span>Accordion Heading Two</span>
+                                <div class="drop_content_icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </label>
+                                <div class="drop_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
                                 </div>
                             </div>
-                            <div class="team_text">
-                                <p class="team_text_h">
-                                    Walter White
-                                </p>
-                                <p class="team_text_subText">
-                                    Chief Executive Officer
-                                </p>
-                                <p class="team_main_text">
-                                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="team_box">
-                            <div class="team_img">
-                                <img src="./img/team/team-4.jpg" alt="4_One" />
-                                <div class="social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                            <div class="drop_content">
+                                <input type="checkbox" name="tab" id="tab-6">
+                                <label for="tab-6">
+                                <span>Accordion Heading Four</span>
+                                <div class="drop_content_icon">
+                                    <i class="fas fa-chevron-down"></i>
                                 </div>
-                            </div>
-                            <div class="team_text">
-                                <p class="team_text_h">
-                                    Walter White
-                                </p>
-                                <p class="team_text_subText">
-                                    Chief Executive Officer
-                                </p>
-                                <p class="team_main_text">
-                                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-                                </p>
+                          </label>
+                                <div class="drop_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -753,67 +587,36 @@
     </div>
 
 
-    <div class="container reveal">
-        <div class="marquee">
-            <ul class="marquee-content">
-                <li><i id="arrowcarousiel" style="color: #000;" class="fab fa-github "></i></li>
-                <li><i id="arrowcarousiel" style="color: #333;" class="fab fa-codepen"></i></li>
-                <li><i id="arrowcarousiel" style="color: #0854ee;" class="fab fa-free-code-camp"></i></li>
-                <li><i id="arrowcarousiel" style="color: #000;" class="fab fa-dev"></i></li>
-                <li><i id="arrowcarousiel" style="color: #61DBFB;" class="fab fa-react"></i></li>
-                <li><i id="arrowcarousiel" style="color: #42b883;" class="fab fa-vuejs"></i></li>
-                <li><i id="arrowcarousiel" style="color: #b52e31;" class="fab fa-angular"></i></li>
-                <li><i id="arrowcarousiel" style="color: #68b063;" class="fab fa-node"></i></li>
-                <li><i id="arrowcarousiel" style="color: #00749c;" class="fab fa-wordpress"></i></li>
-                <li><i id="arrowcarousiel" style="color: #ff9900;" class="fab fa-aws"></i></li>
-                <li><i id="arrowcarousiel" style="color: #0db7ed;" class="fab fa-docker"></i></li>
-                <li><i id="arrowcarousiel" style="color: #32de84;" class="fab fa-android"></i></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="blog reveal">
-            <div class="blog_head">
-                <div class="blog_head_h">BLOG</div>
-                <div class="blog_head_p">Recent posts form our Blog</div>
-            </div>
-            <div class="blog_body">
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div class="blog_box">
-                            <img src="./img/blog/blog-1.jpg" alt="blog_face1">
-                            <p class="blog_box_date">
-                                Tue,September 15
-                            </p>
-                            <p class="blog_box_text">
-                                Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit
-                            </p>
-                            <a href="#" class="blog_box_btn"><span>Read More</span><i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                        </div>
+    <div class="section reveal" id="portfolio">
+        <div class="container">
+            <div class="portfolio_m reveal">
+                <div class="portfolio_head">
+                    <h2 class="portfolio_head_h">
+                        Portfolio
+                    </h2>
+                    <p class="portfolio_head_p">
+                        Check our latest work
+                    </p>
+                    <div id="portfolio_btn">
+                        <button class="btn_portfolio aa" onclick="filterSelection('all')">All</button>
+                        <button class="btn_portfolio" onclick="filterSelection('app')">App</button>
+                        <button class="btn_portfolio" onclick="filterSelection('card')">Card</button>
+                        <button class="btn_portfolio" onclick="filterSelection('web')">Web</button>
                     </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="blog_box">
-                            <img src="./img/blog/blog-2.jpg" alt="blog_face2">
-                            <p class="blog_box_date">
-                                Fri,August 28
-                            </p>
-                            <p class="blog_box_text">
-                                Et repellendus molestiae qui est sed omnis voluptates magnam
-                            </p>
-                            <a href="#" class="blog_box_btn"><span>Read More</span><i class="fas fa-arrow-right arrow_service_btn"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="blog_box">
-                            <img src="./img/blog/blog-3.jpg" alt="blog_face3">
-                            <p class="blog_box_date">
-                                Mon,July 11
-                            </p>
-                            <p class="blog_box_text">
-                                Quia assumenda est et veritatis aut quae
-                            </p>
-                            <a href="#" class="blog_box_btn"><span>Read More</span><i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                </div>
+                <div class="portfolio_body">
+                    <div class="row">
+                        <div class="portfolio_wrap">
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-1.jpg" class="filterDiv app"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-2.jpg" class="filterDiv web"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-3.jpg" class="filterDiv app"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-4.jpg" class="filterDiv card"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-5.jpg" class="filterDiv web"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-6.jpg" class="filterDiv app"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-7.jpg" class="filterDiv card"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-8.jpg" class="filterDiv card"></div>
+                            <div class="portfolio_boxImg"><img src="./img/portfolio/portfolio-9.jpg" class="filterDiv web"></div>
                         </div>
                     </div>
                 </div>
@@ -821,76 +624,320 @@
         </div>
     </div>
 
-    <div class="container" id="contact">
-        <div class="row gy-4 reveal">
-            <div class="col-lg-6">
-                <div class="row gy-4">
-                    <div class="col-md-6">
-                        <div class="info-box">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <h3>Address</h3>
-                            <p>A108 Adam Street,<br>New York, NY 535022</p>
-                        </div>
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="workersl">
+                <div class="workers_head">
+                    <div class="workers_head">
+                        <h2 class="workers_head_h">
+                            Testimonials
+                        </h2>
+                        <p class="workers_head_p">
+                            What they are saying about us
+                        </p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="info-box">
-                            <i class="fas fa-phone-alt"></i>
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                        </div>
+                </div>
+                <div class="card-carousel">
+                    <div class="card" id="1">
+                        <div class="image-container"></div>
+                        <h1 class="card_h">Saul Goodman</h1>
+                        <h2 class="card_p">Ceo & Founder</h2>
+                        <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="info-box">
-                            <i class="far fa-envelope"></i>
-                            <h3>Email Us</h3>
-                            <p>info@example.com<br>contact@example.com</p>
-                        </div>
+                    <div class="card" id="2">
+                        <div class="image-container"></div>
+                        <h1 class="card_h">Sara Wilsson</h1>
+                        <h2 class="card_p">Designer</h2>
+                        <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="info-box">
-                            <i class="far fa-clock"></i>
-                            <h3>Open Hours</h3>
-                            <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                    <div class="card" id="3">
+                        <div class="image-container"></div>
+                        <h1 class="card_h">Jena Karlis</h1>
+                        <h2 class="card_p">Store Owner</h2>
+                        <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <div class="card" id="4">
+                        <div class="image-container"></div>
+                        <h1 class="card_h">Matt Brandon</h1>
+                        <h2 class="card_p">Freelancer</h2>
+                        <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                    <div class="card" id="5">
+                        <div class="image-container"></div>
+                        <h1 class="card_h">John Larson</h1>
+                        <h2 class="card_p">Entrepreneur</h2>
+                        <p class="card_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section reveal" id="team">
+        <div class="container">
+            <div class="team_m">
+                <div class="team_head">
+                    <div class="team_head_h">
+                        TEAM
+                    </div>
+                    <div class="team_head_p">
+                        Our hard working team
+                    </div>
+                </div>
+                <div class="team_body">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="team_box">
+                                <div class="team_img">
+                                    <img src="./img/team/team-1.jpg" alt="1_One" />
+                                    <div class="social">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team_text">
+                                    <p class="team_text_h">
+                                        Walter White
+                                    </p>
+                                    <p class="team_text_subText">
+                                        Chief Executive Officer
+                                    </p>
+                                    <p class="team_main_text">
+                                        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="team_box">
+                                <div class="team_img">
+                                    <img src="./img/team/team-2.jpg" alt="2_One" />
+                                    <div class="social">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team_text">
+                                    <p class="team_text_h">
+                                        Walter White
+                                    </p>
+                                    <p class="team_text_subText">
+                                        Chief Executive Officer
+                                    </p>
+                                    <p class="team_main_text">
+                                        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="team_box">
+                                <div class="team_img">
+                                    <img src="./img/team/team-3.jpg" alt="3_One" />
+                                    <div class="social">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team_text">
+                                    <p class="team_text_h">
+                                        Walter White
+                                    </p>
+                                    <p class="team_text_subText">
+                                        Chief Executive Officer
+                                    </p>
+                                    <p class="team_main_text">
+                                        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="team_box">
+                                <div class="team_img">
+                                    <img src="./img/team/team-4.jpg" alt="4_One" />
+                                    <div class="social">
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team_text">
+                                    <p class="team_text_h">
+                                        Walter White
+                                    </p>
+                                    <p class="team_text_subText">
+                                        Chief Executive Officer
+                                    </p>
+                                    <p class="team_main_text">
+                                        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <form action="form/contact.php" class="form" method="post">
+        </div>
+    </div>
+
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="marquee">
+                <ul class="marquee-content">
+                    <li><i id="arrowcarousiel" style="color: #000;" class="fab fa-github "></i></li>
+                    <li><i id="arrowcarousiel" style="color: #333;" class="fab fa-codepen"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #0854ee;" class="fab fa-free-code-camp"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #000;" class="fab fa-dev"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #61DBFB;" class="fab fa-react"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #42b883;" class="fab fa-vuejs"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #b52e31;" class="fab fa-angular"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #68b063;" class="fab fa-node"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #00749c;" class="fab fa-wordpress"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #ff9900;" class="fab fa-aws"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #0db7ed;" class="fab fa-docker"></i></li>
+                    <li><i id="arrowcarousiel" style="color: #32de84;" class="fab fa-android"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section reveal">
+        <div class="container">
+            <div class="blog">
+                <div class="blog_head">
+                    <div class="blog_head_h">BLOG</div>
+                    <div class="blog_head_p">Recent posts form our Blog</div>
+                </div>
+                <div class="blog_body">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="blog_box">
+                                <img src="./img/blog/blog-1.jpg" alt="blog_face1">
+                                <p class="blog_box_date">
+                                    Tue,September 15
+                                </p>
+                                <p class="blog_box_text">
+                                    Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit
+                                </p>
+                                <a href="#" class="blog_box_btn"><span>Read More</span><i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="blog_box">
+                                <img src="./img/blog/blog-2.jpg" alt="blog_face2">
+                                <p class="blog_box_date">
+                                    Fri,August 28
+                                </p>
+                                <p class="blog_box_text">
+                                    Et repellendus molestiae qui est sed omnis voluptates magnam
+                                </p>
+                                <a href="#" class="blog_box_btn"><span>Read More</span><i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="blog_box">
+                                <img src="./img/blog/blog-3.jpg" alt="blog_face3">
+                                <p class="blog_box_date">
+                                    Mon,July 11
+                                </p>
+                                <p class="blog_box_text">
+                                    Quia assumenda est et veritatis aut quae
+                                </p>
+                                <a href="#" class="blog_box_btn"><span>Read More</span><i class="fas fa-arrow-right arrow_service_btn"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section reveal" id="contact">
+        <div class="container">
+            <div class="row gy-4 reveal">
+                <div class="col-lg-6">
                     <div class="row gy-4">
                         <div class="col-md-6">
-                            <input type="text" class="form-control" name="text" placeholder="Your Name" required="">
+                            <div class="info-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h3>Address</h3>
+                                <p>A108 Adam Street,<br>New York, NY 535022</p>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                            <div class="info-box">
+                                <i class="fas fa-phone-alt"></i>
+                                <h3>Call Us</h3>
+                                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                            <input class="form-control" type="text" name="subject" placeholder="Subject" required="">
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <i class="far fa-envelope"></i>
+                                <h3>Email Us</h3>
+                                <p>info@example.com<br>contact@example.com</p>
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                            <textarea name="Message" class="form-control" rows="6" placeholder="Message" required=""></textarea>
-                        </div>
-                        <div class="col-md-12 text-center">
-                            <button type="submit">Send Message</button>
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <i class="far fa-clock"></i>
+                                <h3>Open Hours</h3>
+                                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                            </div>
                         </div>
                     </div>
-                </form>
+                </div>
+                <div class="col-lg-6">
+                    <form action="form/contact.php" class="form" method="post">
+                        <div class="row gy-4">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="text" placeholder="Your Name" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="subject" placeholder="Subject" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="Message" class="form-control" rows="6" placeholder="Message" required=""></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="up_footer reveal">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                </div>
-                <div class="col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" name="email">
-                        <input type="submit" value="Subscribe">
-                    </form>
+
+    <div class="section reveal">
+        <div class="up_footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" method="post">
+                            <input type="email" name="email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -951,8 +998,9 @@
         </div>
     </div>
     <!-- reveal shuni ishlat animation -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/loadingAnimation.js"></script>
     <script src="./js/carouisel2.js"></script>
-    <script src="./js/scrollTop.js"></script>
     <script src="./js/carouisel.js"></script>
     <script src="./js/portfolio_select.js"></script>
     <script src="./js/toggle.js"></script>

@@ -53,6 +53,41 @@ a {
     text-decoration: none;
 }
 
+.anima {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+    background-color: #012970;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.thing {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #012970;
+    z-index: 100;
+}
+
 #myBtn {
     display: none;
     position: fixed;
@@ -151,6 +186,16 @@ a {
 .nav_links .main_nav li:hover {
     background-color: #f68c09;
     border-radius: 10px;
+}
+
+.nav_links .main_nav li.active {
+    background-color: #3b49df;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.nav_links .main_nav li.active a {
+    color: #fff;
 }
 
 .nav_links .main_nav li:hover a {
@@ -647,7 +692,7 @@ a {
     width: 100%;
 }
 
-.service {
+.service_m {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -997,7 +1042,7 @@ input[type="checkbox"] {
     display: none;
 }
 
-.portfolio {
+.portfolio_m {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1200,7 +1245,7 @@ input[type="checkbox"] {
     box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 0.3);
 }
 
-.team {
+.team_m {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2109,7 +2154,7 @@ input[type="checkbox"] {
         padding: 10px 15px;
         font-size: 14px;
     }
-    .portfolio {
+    .portfolio_m {
         padding: 40px 0;
     }
     .portfolio_head {
@@ -2130,7 +2175,7 @@ input[type="checkbox"] {
         width: 220px;
         height: 160px;
     }
-    .team {
+    .team_m {
         padding: 40px 0;
     }
     .team_head {
@@ -2350,7 +2395,7 @@ input[type="checkbox"] {
         width: 490px;
         height: 280px;
     }
-    .service {
+    .service_m {
         padding: 40px 0;
     }
     .service_head {
@@ -2617,7 +2662,7 @@ input[type="checkbox"] {
         width: 350px;
         height: 230px;
     }
-    .portfolio {
+    .portfolio_m {
         padding: 30px 0;
     }
     .portfolio_head {
@@ -2638,7 +2683,7 @@ input[type="checkbox"] {
         width: 180px;
         height: 120px;
     }
-    .team {
+    .team_m {
         padding: 30px 0;
     }
     .team_head {
@@ -2777,7 +2822,7 @@ input[type="checkbox"] {
         width: 350px;
         height: 250px;
     }
-    .service {
+    .service_m {
         padding: 30px 0;
     }
     .service_head {
@@ -2812,7 +2857,7 @@ input[type="checkbox"] {
     .service_box:hover .read-more i {
         margin: 0 0 0 10px;
     }
-    .portfolio {
+    .portfolio_m {
         padding: 20px 0;
     }
     .portfolio_head {
