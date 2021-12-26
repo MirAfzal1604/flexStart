@@ -1,9 +1,9 @@
-var load = document.querySelector("#loader");
+// var load = document.querySelector("#loader");
 
-function loading() {
-    load.style.display = "none"
-}
+// function loading() {
+//     load.style.display = "none"
+// }
 
-// $(document).ready(function() {
-//     $(".loader").fadeOut(3000)
-// });
+$(document).ready(function() {
+    $(".loader").fadeOut(3000)
+});
