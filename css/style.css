@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -1124,6 +1123,13 @@ input[type="checkbox"] {
 
 .show {
     display: block;
+}
+
+.aa {
+    color: #00ffc8;
+    background-color: #012970;
+    border: none;
+    outline: none;
 }
 
 .workers {
